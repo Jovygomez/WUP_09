@@ -158,7 +158,17 @@ The best model is all variable.
 
 ### Best Two regressor model
 
-The best model using 2 variables are Length1 and Length3   
+The best two regressor models is height and width.  
+
+
+#Pike 
+Find the best two predictors for weight of a Pike 
+
+```{r}
+Pikewtall=lm(Weight~.-Weight,data=Pike)
+summary.lm(Pikewtall)
+```
+
 
 
 ## Roach
